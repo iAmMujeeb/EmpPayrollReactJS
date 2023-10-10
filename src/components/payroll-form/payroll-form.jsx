@@ -93,6 +93,7 @@ const PayrollForm = (props) => {
     }
 
     const save = async (event) => {
+        console.log("Save method called");
         event.preventDefault();
     }
 
